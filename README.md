@@ -1,5 +1,7 @@
 # autosuggest
 
-hello, this is kritika
+hello, this is kritika checking push option
 
-checking push option
+add -> plus button
+commit -> with a message
+push/sync
