@@ -1,0 +1,20 @@
+{
+  "name": "autosuggest",
+  "version": "1.0.0",
+  "description": "hello, this is kritika",
+  "homepage": "https://github.com/KritikaE/autosuggest#readme",
+  "bugs": {
+    "url": "https://github.com/KritikaE/autosuggest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KritikaE/autosuggest.git"
+  },
+  "license": "ISC",
+  "author": "kritika e",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
