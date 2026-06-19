@@ -1,7 +1,25 @@
+/*element selector*/
 h1 {
     color:deeppink;
     background-color: cadetblue;
 }
+
 p{
     color:darkviolet;
+    border: 2px;
+    border-color:darkred;
+    border-style:dashed;
+    padding: 10px;
+    text-align: center;
+}
+/*border is default hidden*/
+
+/*id selector*/
+#heading-2{
+    color:goldenrod
+}
+
+/*class selector - styling more than one tags with same style:*/
+.heading{
+    background-color:darksalmon
 }
