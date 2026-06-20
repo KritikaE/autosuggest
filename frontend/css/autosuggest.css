@@ -52,3 +52,9 @@ body{
     outline:none;
     border:none;
 }
+
+.search-format{
+    font-family:"Lucida Console";
+    color:darkslategray;
+    border-color:darkgoldenrod;
+}
