@@ -1,0 +1,54 @@
+.pill{
+    position:absolute;
+    top: 10px;
+    right: 10px;
+}
+.gear{
+    position:absolute;
+    top: 10px;
+    left: 10px;
+}
+.main{
+    text-align:center;
+    margin-top: 70px;
+}
+.green{
+    color: #169d48;
+    position:absolute;
+    top: 13px;
+    right: 130px;
+}
+
+body{
+    background-color:beige  
+}
+
+.searchbox{
+            /* This property curves the corners */
+            border-radius: 25px; 
+            
+            /* Adds spacing inside the box so text isn't cramped */
+            padding: 7px 15px; 
+            
+            /* Defines the border thickness, style, and color */
+            border: 1.5px solid #2d0339; 
+            
+            /* Removes the default harsh browser outline on click */
+            outline: none; 
+            
+            /* Adjusts width of the box */
+            width: 300px; 
+            font-size: 16px;
+            background-color:white;
+
+}
+
+.lens{
+    top:20px;
+    bottom:20px;
+}
+
+#textbox{
+    outline:none;
+    border:none;
+}
