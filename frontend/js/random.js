@@ -1,10 +1,10 @@
 function random(){
-    fetch("https://randomuser.me/api/")
-
+    //https://autosuggest-backend.onrender.com/api/autosuggest?q=k&weighted=true&algorithm=trie&limit=8
+    fetch("https://autosuggest-backend.onrender.com/api/autosuggest")
         //the data fetched will be stored in res
         .then(function(res){
             console.log(res);
-            res.json(); //to convert raw data to json
+            return res.json(); //to convert raw data to json
         })
 
         //gets data from above function

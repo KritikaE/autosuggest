@@ -48,7 +48,7 @@ body{
     bottom:20px;
 }
 
-#textbox{
+.textbox{
     outline:none;
     border:none;
 }
