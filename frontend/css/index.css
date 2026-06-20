@@ -7,7 +7,7 @@ h1 {
 p{
     color:darkviolet;
     border: 2px;
-    border-color:darkred;
+    border-color:aquamarine;
     border-style:dashed;
     padding: 10px;
     text-align: center;
@@ -23,3 +23,44 @@ p{
 .heading{
     background-color:darksalmon
 }
+
+/*navbar*/
+.navbar{
+    border: 2px;
+    border-color:rgb(14, 10, 105);
+    border-style:solid;
+    background-color:aquamarine;
+    font-family:'Lucida Consol', monospace;
+    text-align:center;
+    padding: 30px;
+}
+
+/* styling on the anchor tags inside navbar*/
+.navbar a{
+    padding: 20px;
+    color:rgb(14, 10, 105);
+    text-decoration:none;
+}
+
+.navbar a:hover{
+    background-color:cadetblue;
+}
+
+body{
+    margin: 0px;
+}
+.card {
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+    margin-left: 410px;
+    margin-top: 50px;
+}
+.card img {
+    width: 100%;
+}
+
+.card button{
+    margin-bottom:2px;
+}
+
