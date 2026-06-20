@@ -32,7 +32,7 @@ p{
     background-color:aquamarine;
     font-family:'Lucida Consol', monospace;
     text-align:center;
-    padding: 30px;
+    padding: 20px;
 }
 
 /* styling on the anchor tags inside navbar*/
@@ -51,9 +51,9 @@ body{
 }
 .card {
     border: 2px solid black;
-    width: 300px;
+    width: 270px;
     text-align: center;
-    margin-left: 410px;
+    margin-left: 450px;
     margin-top: 50px;
 }
 .card img {

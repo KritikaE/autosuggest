@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random</title>
+    <title>Toggle</title>
     <link rel="stylesheet" href="../css/index.css ">
 </head>
 <body>
@@ -13,12 +13,15 @@
         <a href="/pages/toggle.html">Toggle</a>
         <a href="/pages/random.html">Random User</a>
     </div>
-    <p>this is random page</p>
+    <!--<p>this is card page</p>-->
     <div class="card">
-        <img src="../images/john.png" alt="User image">
-        <h2>John Doe</h2>
-        <p>Male</p>
+        <img id="user-img" src="../images/john.png" alt="User image">
+        <h2 id="user-name">John Doe</h2>
+        <h3 id="user-gen">Male</h3>
+
+        <button onclick="random()">Random User</button>
     </div>
     <script src="js/index.js"></script>
+    <script src="../js/random.js"></script>
 </body>
 </html>
